@@ -6,7 +6,7 @@
 
 header {
     width: 101%;
-    height: 60px;
+    height: 70px;
     background-color: rgb(7, 0, 20);        
 }
 
@@ -31,36 +31,127 @@ header {
     margin-right: 50px;
 }
 
+.button-login {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.button1 {
+    padding-right: 10px;
+    padding-top: 7px;
+}
+
+.button1 button {
+    width: 160px;
+    height: 40px;
+    border-radius: 4px;
+    background-color: rgb(59, 59, 255);
+    color: #f9f9f9;
+    font-weight: bolder;
+}
+
+.button2 {
+    padding-top: 7px;    
+}
+
+.button2 button {
+    width: 160px;
+    height: 40px;
+    border-radius: 4px;
+    border-color: #f9f9f9;
+    color: #f9f9f9;
+    background-color: black;
+    font-weight: bolder;
+}
+
 .apresentacao {
     width: 100%;
-    height: 100%;
-    border: solid red;
-    display: flex;
-       
+    height: 100;    
+    display: flex;       
 }
 
 .apresentacao-dados {
     width: 40%;
-    background-color: rgb(7, 0, 20);
-    border: solid green;
-
+    background-color: rgb(7, 0, 20); 
 }
 
 .apresentacao-banner {
     width: 60%;
     background-color: rgb(7, 0, 20);
-    display: flex; 
-    border: solid yellow;
-
+    display: flex;         
 }
-
 
 .apresentacao-banner img {
     margin: 0;
-    padding: 0;
+    padding-right: 50px;
     border: 0;
     width: 100%;
     height: 99vh;
     position: solid;
-    margin-left: 98px;
+    border-color: black;  
 }
+
+.apresentacao-h1 {    
+    color: #f9f9f9;
+    padding-left: 70px;
+    padding-top: 70px;
+    padding-bottom: 50px;
+    font-size: 18px;
+    font-weight: bolder ;
+   
+}
+
+.apresentacao-image {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;  
+    padding-bottom: 50px;  
+}
+
+.apresentacao-image img {
+    width: 300px;
+    height: 170px;    
+}
+
+.apresentacao-button {
+    display: flex;
+    align-items: center;
+    padding-left: 60px;
+    padding-bottom: 40px;
+}
+
+.apresentacao-button button {
+    width: 450px;
+    height: 70px;
+    background-color: rgba(94, 38, 151, 0.724);
+    color: #f9f9f9;
+    font-weight: bolder;
+    font-size: 15px;
+    border-radius: 8px;
+}
+
+.apresentacao-a {
+    margin-left: 60px;
+}
+
+.apresentacao-a a {
+    color: #f9f9f9;
+    font-size: 16px;
+}
+
+.escolha-seu-plano {   
+    background-color: rgb(7, 0, 20); 
+}
+
+.titulo h2 {
+    color: #f9f9f9;
+}
+
+.planos {
+    display: flex;
+    align-items: center;
+    justify-content: space-around; 
+    color: #f9f9f9;   
+}
+
