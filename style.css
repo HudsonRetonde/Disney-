@@ -140,18 +140,61 @@ header {
     font-size: 16px;
 }
 
-.escolha-seu-plano {   
-    background-color: rgb(7, 0, 20); 
+.escolha-seu-plano {    
+    background-color: rgb(7, 0, 20);     
 }
 
 .titulo h2 {
     color: #f9f9f9;
 }
 
-.planos {
+.titulo-plano {
     display: flex;
     align-items: center;
     justify-content: space-around; 
-    color: #f9f9f9;   
+    color: #f9f9f9; 
+    padding-top: 60px;
+    font-size: 30px; 
+    padding-bottom: 30px; 
 }
 
+.planos {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 15px;
+}
+
+.plano-1 {
+    width: 300px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    display: block;
+    color: #b7b7b7;
+    border: solid rgb(159, 11, 203);
+    background-color: rgb(29, 1, 105);
+    
+}
+
+.plano-2 {
+    width: 300px;
+    height: 300px;
+    color: #b7b7b7;
+    border: solid rgb(0, 179, 255);
+    background-color: darkblue;
+}
+
+.plano-3 {
+    width: 300px;
+    height: 300px;
+    color: #b7b7b7;
+    border: solid rgb(0, 179, 255);
+    background-color: darkblue;
+}
+
+.escolha-seu-plano span {
+    color: #f9f9f9;
+    padding-top: 40px;
+}
