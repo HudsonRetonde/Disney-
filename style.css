@@ -52,17 +52,21 @@ header {
 }
 
 .button2 {
-    padding-top: 7px;    
+    padding-top: 7px;      
 }
 
 .button2 button {
     width: 160px;
     height: 40px;
-    border-radius: 4px;
-    border-color: #f9f9f9;
-    color: #f9f9f9;
+    border-radius: 4px;    
+    border-color: #f9f9f9;    
     background-color: black;
-    font-weight: bolder;
+    font-weight: bolder;    
+}
+
+.button2 button a {
+    text-decoration: none;
+    color: #f9f9f9;
 }
 
 .apresentacao {
