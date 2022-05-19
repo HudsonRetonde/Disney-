@@ -4,6 +4,10 @@
     font-family: 'Avenir Roman' sans-serif;
 }
 
+body {
+    overflow-x:hidden;
+}
+
 header {
     width: 100%;
     height: 70px;
@@ -37,6 +41,16 @@ header {
     justify-content: space-around;
 }
 
+.button1:hover {    
+    transform: scale(1.08);
+    transition: transform 2000ms linear;
+    
+}
+
+.button1 a:hover{
+    color: rgb(20, 248, 20);
+}
+
 .button1 {
     padding-right: 10px;
     padding-top: 7px;
@@ -49,6 +63,13 @@ header {
     background-color: rgb(59, 59, 255);
     color: #f9f9f9;
     font-weight: bolder;
+    
+}
+
+.button1 button a {
+    text-decoration: none;
+    color: #f9f9f9;
+    text-decoration: none;
 }
 
 .button2 {
@@ -67,6 +88,18 @@ header {
 .button2 button a {
     text-decoration: none;
     color: #f9f9f9;
+    text-decoration: none;
+}
+
+.button2:hover {    
+    transform: scale(1.08);
+    transition: transform 2000ms linear;
+    border-color: yellow;
+    
+}
+
+.button2 a:hover{
+    color: yellow;
 }
 
 .apresentacao {
@@ -133,6 +166,20 @@ header {
     font-weight: bolder;
     font-size: 15px;
     border-radius: 8px;
+}
+
+.apresentacao-button a {
+    text-decoration: none;
+    color: #f9f9f9;
+}
+
+.apresentacao-button:hover {    
+    transform: scale(1.08);
+    transition: transform 2000ms linear;        
+}
+
+.apresentacao-button a:hover{
+    color: aqua;
 }
 
 .apresentacao-a {
@@ -237,6 +284,20 @@ header {
     border: none;
 }
 
+.plano-1 button:hover {    
+    transform: scale(1.08);
+    transition: transform 2000ms linear;        
+}
+
+.plano-1 button a:hover{
+    color: rgb(248, 164, 228);
+}
+
+.plano-1 a {
+    text-decoration: none;
+    color: #f9f9f9;
+}
+
 .plano-2 {
     display: flex;
     align-items: center;    
@@ -278,6 +339,20 @@ header {
     border: none;
 }
 
+.plano-2 button:hover {    
+    transform: scale(1.08);
+    transition: transform 2000ms linear;        
+}
+
+.plano-2 button a:hover{
+    color: gold;
+}
+
+.plano-2 a {
+    text-decoration: none;
+    color: #f9f9f9;
+}
+
 .plano-3 {
     display: flex;
     align-items: center;    
@@ -316,6 +391,21 @@ header {
     font-size: 18px;    
     border-radius: 4px;
     border: none;
+    
+}
+
+.plano-3 button:hover {    
+    transform: scale(1.08);
+    transition: transform 2000ms linear;        
+}
+
+.plano-3 button a:hover{
+    color: gold;
+}
+
+.plano-3 a {
+    text-decoration: none;
+    color: #f9f9f9;
 }
 
 .planos-span {
@@ -401,6 +491,7 @@ header {
     max-width: 100%;
     background-color: rgb(7, 0, 20);
     position: relative;
+    max-width: 100%;
 }
 
 .simba img {

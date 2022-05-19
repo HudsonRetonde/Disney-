@@ -3,9 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"><link rel="stylesheet" href="usuario-style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="Hopstarter-Square-Flags-Brazil-Flag.ico" type="image/x-icon">
-    <title>Usuário</title>
+    <link rel="stylesheet" href="assine.css">
+    <title>Assine agora</title>
 </head>
 <body>
     <div class="container">
@@ -13,32 +14,39 @@
             <div class="imagem">
                 <img src="original-header.svg" alt="logo-disney">
             </div>
-            <div class="titulo">
-                <h1>Use o e-mail e a senha para entrar</h1>
+            <div class="passos">
+                <span>PASSO 1 DE 4</span>
             </div>
-            <div class="imput">
+            <div class="titulo">
+                <h1>Digite o seu e-mail</h1>
+            </div>
+            <div class="box-input">
                 <form>
                     <div class="email">
                         <label for="email"></label>
                         <input type="email" nome="email" id="email" placeholder="E-mail">
                     </div>                
                 </form>
-                <form>
-                    <div class="senha">
-                        <label for="senha"></label>
-                        <input type="senha" nome="senha" id="senha" placeholder="Digite a sua senha">
-                    </div>                
-                </form>
             </div>
-            <div class="button">
-                <button><a href="usuario.html">Entrar </a></button>
+            <div class="cheack-span">
+                <div class="cheack">
+                    <input type = "checkbox" id = "subscribeNews" name = "subscribe" value = "newsletter">
+                    <label for = "subscribeNews"></label>
+                </div>
+                <div class="span-cheack">
+                    <span>Sim! Quero receber notícias , ofertas especiais e outras informações do Disney+ e das empresas do grupo  Walt Disney</span>
+                </div>  
+            </div>   
             </div>
-    
-            <div class="span-link">
-                <span>Não tem Disney+?</span>
-                <a href="assine.html">Assine!</a>
-            </div>            
-        </div>   
+            <div class="box-2">
+                <div class="span2">
+                    <span>A Disney usará os seus dados para oferecer e dar suporte aos serviços, personalizar e melhorar a sua experiência no Disney+ e para enviar informações relacionadas ao serviço. Você pode alterar as preferências de comunicação quando quiser. Podemos usar esses dados conforme explica a nossa <a href="#">Política de Privacidade</a>, inclusive compartilhá-los com as Empresas do grupo Walt Disney. Ao clicar em "Continuar", você confirma que leu a nossa <a href="#">Política de Privacidade</a> e os termos específicos aplicáveis ao Brasil.</span>
+                </div>
+                <div class="button-box2">
+                    <button><a href="#">CONTINUAR</a></button>
+                </div>
+            </div>
+        </div>
     </div>
     <footer>
         <div class="container-footer">
@@ -60,6 +68,6 @@
                 <span>Av. Das Nações Unidas, 12.551, 12.555, 12.559, Piso 10, São Paulo/SP – CEP 04578-903, Brasil e CNPJ/M 73.042.962/0004-20</span>
             </div>
         </div>
-    </footer>
+    </footer>    
 </body>
 </html>

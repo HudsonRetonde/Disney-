@@ -8,6 +8,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
 }
 
 .box {
@@ -30,31 +31,112 @@
     height: 100px;
 }
 
+.passos {    
+    align-items: flex-start ;    
+    width: 310px;
+    height: 14px;
+    padding-top: 20px;
+    
+    
+}
+
+.passos span {
+    color: #b7b7b7;
+    font-size: 10px;
+}
+
+.titulo {
+    align-items: flex-start;
+    width: 310px;
+    height: 25px;
+    padding-bottom: 15px;    
+    font-size: 10px;
+}
+
 h1 {
     color: #f9f9f9;
 }
 
-.email {
-    padding: 30px 0;
-}
-
-input {
+.box-input input {
     width: 300px;
-    height: 40px;
+    height: 30px;
     padding: 05px;
     border-color: #f9f9f9 1px;
+    color: #f9f9f9;
     background-color: rgb(51, 49, 49);
     border-radius: 4px;
 }
 
-.button {
-    padding: 30px 0;
+
+.cheack-span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    width: 315px;
+    height: 50hv;
+    margin-top: 30px;
+    font-size: 12px;
+    padding-bottom: 20px;
 }
 
-button {
+.cheack {
+    padding-right: 5px;
+    padding-bottom: 20px;
+}
+
+.span-cheack {
+    padding-top: 5px;
+    text-align: justify;
+}
+
+span {
+    color: #b7b7b7;
+}
+
+.box-2 {
     width: 315px;
-    height: 50px;
-    padding: 05px;
+    height: 42%;
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+    flex-direction: column;     
+    background-color: rgb(51, 49, 49);    
+    border-radius: 8px;    
+}
+
+.span2 {
+    width: 310px;
+    height: 30vh;
+    text-align: justify ;    
+    background-color: rgb(51, 49, 49);
+    
+}
+
+.span2 span {
+    padding: 5px;
+    background-color: rgb(51, 49, 49);
+    font-size: 12px;
+    
+}
+
+.span2 a {
+    
+    background-color: rgb(51, 49, 49);
+    color: blue;  
+}
+
+
+.button-box2 {    
+    background-color:  rgb(51, 49, 49);
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+    
+
+button {
+    width: 300px;
+    height: 50px;    
     background-color: rgb(35, 97, 255);
     color: #f9f9f9;
     font-size: 18px;    
@@ -70,25 +152,15 @@ button a {
     color: #f9f9f9;
 }
 
-.button:hover {       
-    transform: scale(1.08);
+.button-box2:hover {       
+    transform: scale(1.04);
     transition: transform 1500ms linear;    
 }
 
-.button a:hover {
+.button-box2 a:hover {
     color: yellow;    
 }
 
-span {
-    color: #b7b7b7;
-}
-
-.span-link a {
-    text-decoration: none;
-    color: #f9f9f9;
-    padding-left: 5px;
-    text-decoration: none;
-}
 
 .footer-img {
     display: flex;
@@ -128,4 +200,3 @@ footer img {
     color: #b7b7b7;
     padding: 10px;    
 }
-
